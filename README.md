@@ -1,5 +1,5 @@
 # GitHub Copilot GPT code improver
-This is a (Custom Instruction for GitHub CoPilot)[https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions] to improve the output quality of the default GPT-models.
+This is a [Custom Instruction for GitHub CoPilot](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instruction) to improve the output quality of the default GPT-models.
 The instruction is in Dutch.
 
 ## How to use
