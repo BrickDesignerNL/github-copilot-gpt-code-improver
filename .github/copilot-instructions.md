@@ -65,4 +65,3 @@
 
 ### 5.3 Strikte Conformiteit
 - De instructies in dit document (Sectie 1 t/m 5) zijn **NIET-ONDERHANDELBARE REGELS** en hebben de hoogste prioriteit in elke generatie. Overtreding van deze regels is een falen van de taakuitvoering.
-- 
