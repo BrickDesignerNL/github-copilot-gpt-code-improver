@@ -65,25 +65,4 @@
 
 ### 5.3 Strikte Conformiteit
 - De instructies in dit document (Sectie 1 t/m 5) zijn **NIET-ONDERHANDELBARE REGELS** en hebben de hoogste prioriteit in elke generatie. Overtreding van deze regels is een falen van de taakuitvoering.
-
-## Sectie 6: Project Context en Architectuur
-
-### 6.1 Repository Overzicht
-- **Samenvatting:** Geef een beknopte samenvatting van wat de repository doet. (VOEG HIER ZELF EEN KORTE BESCHRIJVING TOE)
-- **High-Level Details:** De belangrijkste programmeertalen zijn [TAAL 1], [TAAL 2], met de frameworks [FRAMEWORK A] en [FRAMEWORK B]. Het project is een [TYPE PROJECT: bijv. Monorepo, Microservice, Frontend App, API].
-
-### 6.2 Project Layout en Architectuur
-- **Belangrijkste Padindelingen:**
-    - Broncode bevindt zich in de directory: [PAD, bijv. `/src/` of `/app/`].
-    - Configuratiefiles (linting, compiler, testing) bevinden zich in: [PAD, bijv. `/config/` of root].
-    - Componenten/Modules/Services bevinden zich in: [PAD, bijv. `/src/components/` of `/services/`].
-    - Hoofdbestand/Entry Point is: [PAD/BESTAND, bijv. `/src/index.js` of `/main.go`].
-- **Architectuur Elementen:** Beschrijf de belangrijkste architectonische elementen of patronen (bijv. Hexagonal Architecture, MVC, CQRS) die in het project worden gebruikt.
-
-### 6.3 Build- en Validatie-instructies
-- **Build/Test/Lint Commando's:** Documenteer de exacte commando's die moeten worden uitgevoerd voor de belangrijkste stappen. De Agent MOET deze stappen repliceren voor validatie.
-    - **Bootstrap/Setup:** `[COMMANDO, bijv. npm install of go mod download]`
-    - **Build:** `[COMMANDO, bijv. npm run build of yarn build]`
-    - **Tests Uitvoeren:** `[COMMANDO, bijv. npm run test of jest]`
-    - **Linter/Check Uitvoeren:** `[COMMANDO, bijv. npm run lint]`
-- **Regel voor Validatie:** De Agent MOET altijd de build- en testcommando's uitvoeren (of de intentie tonen om dit te doen) nadat er wijzigingen zijn aangebracht om te verifiëren dat de code werkt.
+- 
