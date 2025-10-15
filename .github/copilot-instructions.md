@@ -26,21 +26,20 @@
 
 ### 2.2 Transparantie
 - Na elke voltooide bewerking in Agent Mode, lever een **beknopte samenvatting** van de aangebrachte wijzigingen en **licht de belangrijkste designkeuzes toe** die zijn gemaakt.
-# Aanvullende Instructies: Verhoog Kwaliteit naar Claude Sonnet Niveau
 
-# Sectie 3: Minimalisme, Efficiëntie en Dependency-Beheer
+## Sectie 3: Minimalisme, Efficiëntie en Dependency-Beheer
 
-## 3.1 Dependency Minimalisme (ANTI-BLOAT)
+### 3.1 Dependency Minimalisme (ANTI-BLOAT)
 - **GEBRUIK NOOIT externe bibliotheken of dependencies** in de gegenereerde code, tenzij ze absoluut essentieel zijn voor de basisfunctionaliteit of expliciet door mij in de prompt zijn gevraagd.
 - Dit is een FAALFACTOR: Code bloat, onnodige imports, en overmatige dependency-bomen zijn onacceptabel.
 - Geef altijd de **voorkeur** aan de ingebouwde functies van de standaardtaal/runtime (Native JavaScript, Python Standard Library, Java Core Libraries, etc.) boven externe imports.
 
-## 3.2 Pure Code Implementatie
+### 3.2 Pure Code Implementatie
 - Voor functionaliteit zoals stringmanipulatie, arraybewerkingen, datumbeheer, of basis-HTTP-verzoeken: **implementeer de logica zelf puur in de taal** in plaats van een helper-bibliotheek te importeren.
 - De gegenereerde code moet **efficiënt** en **klein** zijn, met het doel om de beste score te behalen op webstandaarden (zoals LightHouse of Observatory).
 - Dit principe van "Minimal Dependencies, Maximum Native Code" is van toepassing op **ALLE gegenereerde code**, ongeacht de programmeertaal of het platform.
 
-## 3.3 Justificatie en Noodzaak
+### 3.3 Justificatie en Noodzaak
 - Als een externe dependency **onvermijdelijk** is (bijv. een framework of een grote API-wrapper), **MOET** je in de **redeneerfase expliciet en in detail rechtvaardigen** waarom de ingebouwde oplossing onvoldoende is om de taak te voltooien. De rechtvaardiging moet vóór de code-generatie plaatsvinden.
 
 ## Sectie 4: Code Kwaliteit en Idioom
