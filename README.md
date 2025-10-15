@@ -7,4 +7,4 @@ The instruction is in Dutch.
 2. Use GitHub CoPilot in agent mode with the default GPT4.1 model.
 3. Have Premium Model quality results for $10 per month imstead of $39 per month.
 
-If it works for you buy me a drink 😊
+If it works for you buy, me a drink 😊
