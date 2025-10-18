@@ -11,4 +11,4 @@ If it works for you, let's have a ☕
 
 ### Prompt
 These instructions are most closedly followed when you finish you prompt with:
--strictly follow custum-instructions.md-
+_strictly follow custum-instructions.md_
