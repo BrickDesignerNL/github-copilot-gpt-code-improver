@@ -2,13 +2,13 @@
 This is a [Custom Instruction for GitHub CoPilot](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions) to improve the output quality of the default GPT-models.
 The instruction is in Dutch.
 
+If it works for you, let's have a ☕
+
 ## How to use
 1. Put the file **copilot-instructions.md** file in the **.github** folder in the **root** of your project.
 2. In **VS Code** use GitHub CoPilot in **agent** mode with the default **gpt4.1** model.
 3. Have Premium Model quality results for $10 per month imstead of $39 per month.
 
-## Promt
+### Prompt
 These instructions are most closedly followed when you finish you prompt with:
 -strictly follow custum-instructions.md-
-
-If it works for you, let's have a ☕
