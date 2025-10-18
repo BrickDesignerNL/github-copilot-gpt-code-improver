@@ -7,4 +7,8 @@ The instruction is in Dutch.
 2. In **VS Code** use GitHub CoPilot in **agent** mode with the default **gpt4.1** model.
 3. Have Premium Model quality results for $10 per month imstead of $39 per month.
 
+## Promt
+These instructions are most closedly followed when you finish you prompt with:
+-strictly follow custum-instructions.md-
+
 If it works for you, let's have a ☕
