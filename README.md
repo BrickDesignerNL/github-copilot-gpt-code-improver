@@ -12,4 +12,4 @@ If it works for you, let's have a ☕
 ### Prompt
 These instructions are most closedly followed when you finish you prompt with:
 
-_strictly follow custum-instructions.md_
+_strictly follow copilot-instructions.md_
